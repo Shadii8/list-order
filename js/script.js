@@ -20,7 +20,7 @@
               ${task.content}
                 </li>
                 `;
-        }
+        } 
 
         document.querySelector(".js-tasks").innerHTML = htmlString;
     };
@@ -44,7 +44,7 @@
 
         addNewTask(newTaskContent);
     };
-    
+
     const init = () => {
         render();
 
